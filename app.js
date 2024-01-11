@@ -5,11 +5,7 @@ const port = 4000
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.send('node app')
-})
-
-app.use('/login', (req, res) => {
-  res.json('Loggeado')
+  res.send('Node App Web')
 })
 
 app.listen(port, () => {
